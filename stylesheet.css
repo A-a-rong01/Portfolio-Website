@@ -9,3 +9,16 @@
     color: royalblue;
     font-size: large;
 }
+
+.listItems {
+    font-size: 2rem;
+    margin: 3rem;
+}
+
+.profilePic {
+    border-radius: 50rem;
+}
+
+.heroBody {
+    display: flex;
+}
