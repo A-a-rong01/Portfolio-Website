@@ -17,8 +17,17 @@
 
 .profilePic {
     border-radius: 50rem;
+    height: 35rem;
+    width: auto;
+}
+
+.picture {
+    width: auto;
+    height: 18rem;
+    padding: 1rem;
 }
 
 .heroBody {
     display: flex;
+    flex-wrap: wrap;
 }
