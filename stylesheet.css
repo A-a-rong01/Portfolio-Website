@@ -19,6 +19,10 @@ nav {
 
 footer{
     background-color: lightcoral;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    left: 0;
     padding: 1rem;
 }
 
@@ -40,6 +44,11 @@ footer{
 }
 
 .heroBody {
+    padding: 1.5rem;
     display: flex;
     flex-wrap: wrap;
+}
+
+.intro {
+    padding: 1rem;
 }
