@@ -1,13 +1,25 @@
-.body {
+body {
     background-color: sandybrown;
     text-align: center;
-    color: royalblue;
+    color: black;
+    /* color: royalblue; */
     font-size: large;
 }
 
-.header {
-    color: royalblue;
+header {
+    background-color: darkseagreen;
+    padding: 2rem;
     font-size: large;
+}
+
+nav {
+    background-color: slateblue;
+    padding: .8rem;
+}
+
+footer{
+    background-color: lightcoral;
+    padding: 1rem;
 }
 
 .listItems {
