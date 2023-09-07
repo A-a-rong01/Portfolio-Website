@@ -52,3 +52,9 @@ footer{
 .intro {
     padding: 1rem;
 }
+
+.sectionImg {
+    height: 16rem;
+    border-radius: 3rem;
+    margin: 1rem 2rem;
+}
