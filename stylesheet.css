@@ -19,11 +19,12 @@ nav {
 
 footer{
     background-color: lightcoral;
-    position: fixed;
+    /* position: fixed; */
     bottom: 0;
     width: 100%;
-    left: 0;
+    left: 0%;
     padding: 1rem;
+    margin: 0;
 }
 
 .listItems {
@@ -47,6 +48,7 @@ footer{
     padding: 1.5rem;
     display: flex;
     flex-wrap: wrap;
+    height: 100%;
 }
 
 .intro {
@@ -57,4 +59,22 @@ footer{
     height: 16rem;
     border-radius: 3rem;
     margin: 1rem 2rem;
+    /* flex: 1%; */
+}
+
+.sections {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.sectionCards {
+    flex: 18%;
+    background-color: white;
+    border-radius: 3rem;
+    height: 30rem;
+    margin: 1rem;
+}
+
+.sectionCards:hover{
+    background-color: rgba(128, 128, 128, 0.459);
 }
